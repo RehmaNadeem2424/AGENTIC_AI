@@ -1,0 +1,17 @@
+[project]
+name = "assignment-no-11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RehmaNadeem", email = "rehmanadeem2424@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+assignment-no-11 = "assignment_no_11:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
